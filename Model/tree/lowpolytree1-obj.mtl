@@ -1,0 +1,466 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 13.01.2008 19:22:43
+
+newmtl Material__70
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c1].tga
+	map_Kd D:\sell models\lowpolytree1\map\c1].tga
+	map_d D:\sell models\lowpolytree1\map\c1].tga
+
+newmtl Material__31
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\dimian 1.tga
+	map_Kd D:\sell models\lowpolytree1\map\dimian 1.tga
+	map_d D:\sell models\lowpolytree1\map\dimian 1.tga
+
+newmtl c2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c2.tga
+	map_Kd D:\sell models\lowpolytree1\map\c2.tga
+	map_d D:\sell models\lowpolytree1\map\c2.tga
+
+newmtl b14
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b1.tga
+	map_Kd D:\sell models\lowpolytree1\map\b1.tga
+	map_d D:\sell models\lowpolytree1\map\b1.tga
+
+newmtl aa14
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb5.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb5.tga
+	map_d D:\sell models\lowpolytree1\map\bb5.tga
+
+newmtl aa19
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b4.tga
+	map_Kd D:\sell models\lowpolytree1\map\b4.tga
+	map_d D:\sell models\lowpolytree1\map\b4.tga
+
+newmtl 05___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b1.tga
+	map_Kd D:\sell models\lowpolytree1\map\b1.tga
+	map_d D:\sell models\lowpolytree1\map\b1.tga
+
+newmtl b2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b2.tga
+	map_Kd D:\sell models\lowpolytree1\map\b2.tga
+	map_d D:\sell models\lowpolytree1\map\b2.tga
+
+newmtl aa16
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.1764 0.1764 0.1764
+	map_Ka D:\sell models\lowpolytree1\map\b6.tga
+	map_Kd D:\sell models\lowpolytree1\map\b6.tga
+	map_d D:\sell models\lowpolytree1\map\b6.tga
+
+newmtl b10
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b10.tga
+	map_Kd D:\sell models\lowpolytree1\map\b10.tga
+	map_d D:\sell models\lowpolytree1\map\b10.tga
+
+newmtl b11
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b11.tga
+	map_Kd D:\sell models\lowpolytree1\map\b11.tga
+	map_d D:\sell models\lowpolytree1\map\b11.tga
+
+newmtl bb17
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb17.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb17.tga
+	map_d D:\sell models\lowpolytree1\map\bb17.tga
+
+newmtl b13
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b13.tga
+	map_Kd D:\sell models\lowpolytree1\map\b13.tga
+	map_d D:\sell models\lowpolytree1\map\b13.tga
+
+newmtl aa17
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b9.tga
+	map_Kd D:\sell models\lowpolytree1\map\b9.tga
+	map_d D:\sell models\lowpolytree1\map\b9.tga
+
+newmtl aa12
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b3.tga
+	map_Kd D:\sell models\lowpolytree1\map\b3.tga
+	map_d D:\sell models\lowpolytree1\map\b3.tga
+
+newmtl bb16
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb16.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb16.tga
+	map_d D:\sell models\lowpolytree1\map\bb16.tga
+
+newmtl aa10
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb18.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb18.tga
+	map_d D:\sell models\lowpolytree1\map\bb18.tga
+
+newmtl b15
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b15.tga
+	map_Kd D:\sell models\lowpolytree1\map\b15.tga
+	map_d D:\sell models\lowpolytree1\map\b15.tga
+
+newmtl _____7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b7.tga
+	map_Kd D:\sell models\lowpolytree1\map\b7.tga
+	map_d D:\sell models\lowpolytree1\map\b7.tga
+
+newmtl b14_0
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b14.tga
+	map_Kd D:\sell models\lowpolytree1\map\b14.tga
+	map_d D:\sell models\lowpolytree1\map\b14.tga
+
+newmtl aa6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb19.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb19.tga
+	map_d D:\sell models\lowpolytree1\map\bb19.tga
+
+newmtl bb21
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb21.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb21.tga
+	map_d D:\sell models\lowpolytree1\map\bb21.tga
+
+newmtl b20
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\bb20.tga
+	map_Kd D:\sell models\lowpolytree1\map\bb20.tga
+	map_d D:\sell models\lowpolytree1\map\bb20.tga
+
+newmtl c3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c3.tga
+	map_Kd D:\sell models\lowpolytree1\map\c3.tga
+	map_d D:\sell models\lowpolytree1\map\c3.tga
+
+newmtl c4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c4.tga
+	map_Kd D:\sell models\lowpolytree1\map\c4.tga
+	map_d D:\sell models\lowpolytree1\map\c4.tga
+
+newmtl qs_dm
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\qs dm.tga
+	map_Kd D:\sell models\lowpolytree1\map\qs dm.tga
+	map_d D:\sell models\lowpolytree1\map\qs dm.tga
+
+newmtl qs1
+	Ns 45.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\qs1.tga
+	map_Kd D:\sell models\lowpolytree1\map\qs1.tga
+
+newmtl c5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c5.tga
+	map_Kd D:\sell models\lowpolytree1\map\c5.tga
+	map_d D:\sell models\lowpolytree1\map\c5.tga
+
+newmtl c6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c6.tga
+	map_Kd D:\sell models\lowpolytree1\map\c6.tga
+	map_d D:\sell models\lowpolytree1\map\c6.tga
+
+newmtl c7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\c7.tga
+	map_Kd D:\sell models\lowpolytree1\map\c7.tga
+	map_d D:\sell models\lowpolytree1\map\c7.tga
+
+newmtl b8
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\sell models\lowpolytree1\map\b8.tga
+	map_Kd D:\sell models\lowpolytree1\map\b8.tga
+	map_d D:\sell models\lowpolytree1\map\b8.tga

@@ -1,0 +1,15 @@
+# Blender3D v2.52 (sub 0) OBJ File: <memory2>
+# www.blender3d.org
+mtllib MetalSheet.mtl
+o Cube
+v 1.907766 -2.415508 1.000000
+v -1.907766 -2.415508 1.000000
+v 1.907765 2.415508 1.000000
+v -1.907767 2.415508 1.000000
+vt 1.000000 0.000000
+vt 1.000000 1.000000
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+usemtl Material_Sheet_Diffuse.tga
+s off
+f 1/1 3/2 4/3 2/4
