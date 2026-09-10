@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2020 Pasquelin Alban
+
+PÉRIMÈTRE — Cette licence couvre uniquement les fichiers propres au dépôt :
+le README et l'organisation des dossiers.
+
+Les modèles 3D, les textures et les planches d'imagerie NE SONT PAS couverts.
+Ils appartiennent à leurs auteurs respectifs et restent sous leur licence
+propre :
+
+  - Model/fence, fence 2 à 5, model1, model2, model5, Model8, Model9,
+    Model10, heli — © W. Sitters, au choix GPL v2 ou ultérieure, ou
+    CC-BY 3.0, avec obligation de créditer l'auteur. Les textes de licence
+    accompagnent les fichiers dans chaque dossier.
+  - Model/jeep — © Psionic (psionicdesign.com), libre d'usage, crédit
+    apprécié.
+  - Model/duions_fishtail_palm_blendswap — provenance BlendSwap.
+  - Le reste de Model/ ne documente pas sa source.
+  - imagerie/ — planches extraites de jeux commerciaux (Tomb Raider Legend
+    et Anniversary). Références de travail, NON redistribuables.
+
+Voir le README pour le détail. Vérifiez la licence d'un élément avant de le
+réutiliser ailleurs.
+
+SCOPE — This license covers only the repository's own files (README, folder
+organisation). The 3D models, textures and imagery sheets are NOT covered:
+they belong to their respective authors and remain under their own licenses,
+as detailed above and in the README.
+
+--------------------------------------------------------------------------------
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
