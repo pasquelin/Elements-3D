@@ -1,47 +1,48 @@
 # Elements 3D
 
-Banque d'assets 3D rassemblée pour le jeu **Enigmacube**. Le dépôt regroupe des
-modèles prêts à importer dans un moteur temps réel, leurs textures d'origine et
-des planches de textures servant de références visuelles.
+**[Documentation 🇫🇷](README.fr.md)**
 
-C'est une archive de ressources, pas une bibliothèque de code : rien à installer,
-rien à compiler.
+A 3D asset bank gathered for the **Enigmacube** game. The repository collects models
+ready to import into a real-time engine, their original textures, and texture sheets
+kept as visual references.
 
-## Contenu
+It is an asset archive, not a code library: nothing to install, nothing to build.
 
-| Dossier | Contenu |
+## Contents
+
+| Folder | Content |
 | --- | --- |
-| `Model/` | 43 dossiers, un par élément : le maillage dans un ou plusieurs formats, ses textures, et le fichier de licence de l'auteur quand il en fournit un |
-| `imagerie/` | 67 planches de textures `.tga` utilisées comme références de direction artistique |
+| `Model/` | 43 folders, one per item: the mesh in one or more formats, its textures, and the author's licence file when one is provided |
+| `imagerie/` | 67 `.tga` texture sheets used as art-direction references |
 
-### Les éléments
+### The items
 
-- **Végétation** — `tree`, `Maple Tree`, `palmier`, `duions_fishtail_palm_blendswap`, `foliege`, `Plant1`, `Plant2`, `durian`
+- **Vegetation** — `tree`, `Maple Tree`, `palmier`, `duions_fishtail_palm_blendswap`, `foliege`, `Plant1`, `Plant2`, `durian`
 - **Architecture** — `chapel`, `cathedralbase`, `mayantemple`, `medieval house`, `Medieval`, `windmill`, `dungeon_stairs`, `flay_city`
-- **Décors et props** — `colonne_en_ruine`, `statue`, `pont`, `rope_bridge`, `fence` (5 variantes), `table`, `trashbox`, `props1`, `MetalSheet`
-- **Véhicules** — `jeep`, `Bus Ruin`, `heli`, `Helicopter blend`
-- **Objets** — `gun`, `munition`, `pomme`, `poire`
-- **Divers** — `model1`, `model2`, `model5`, `Model8`, `Model9`, `Model10`
+- **Scenery and props** — `colonne_en_ruine`, `statue`, `pont`, `rope_bridge`, `fence` (5 variants), `table`, `trashbox`, `props1`, `MetalSheet`
+- **Vehicles** — `jeep`, `Bus Ruin`, `heli`, `Helicopter blend`
+- **Objects** — `gun`, `munition`, `pomme`, `poire`
+- **Miscellaneous** — `model1`, `model2`, `model5`, `Model8`, `Model9`, `Model10`
 
-### Formats présents
+### Formats present
 
-Maillages : `.blend` (23), `.obj` (37), `.md2` (43), `.3ds` (6), `.ms3d` (2),
+Meshes: `.blend` (23), `.obj` (37), `.md2` (43), `.3ds` (6), `.ms3d` (2),
 `.c4d` (2), `.fbx`, `.dae`, `.lwo`.
-Textures : `.tga` (84), `.png` (48), `.jpg` (24), `.bmp` (16), `.pcx` (11),
+Textures: `.tga` (84), `.png` (48), `.jpg` (24), `.bmp` (16), `.pcx` (11),
 `.dds` (3), `.tif` (2).
 
-Les sources `.blend` sont conservées telles quelles pour pouvoir retoucher un
-modèle avant de le réexporter, plutôt que de repartir d'un maillage figé.
+The `.blend` sources are kept as they are, so a model can be reworked before being
+re-exported rather than starting again from a frozen mesh.
 
-## Import dans Three.js
+## Importing into Three.js
 
-Onze éléments — `gun`, `mayantemple`, `munition`, `palmier`, `poire`, `pomme`,
-`pont`, `statue`, `table`, `Plant2`, `Helicopter blend` — portent un `json.js`
-exporté depuis Blender au format JSON de Three.js.
+Eleven items — `gun`, `mayantemple`, `munition`, `palmier`, `poire`, `pomme`,
+`pont`, `statue`, `table`, `Plant2`, `Helicopter blend` — carry a `json.js`
+exported from Blender in Three.js's JSON format.
 
-> **Attention** : ce format visait `JSONLoader`, retiré de Three.js à la version
-> r99. Sur un Three.js moderne, réexportez la source `.blend` en glTF 2.0
-> (`.glb`) plutôt que de charger ces fichiers.
+> **Warning**: that format targeted `JSONLoader`, removed from Three.js in r99. On a
+> modern Three.js, re-export the `.blend` source to glTF 2.0 (`.glb`) rather than
+> loading these files.
 
 ```js
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
@@ -50,28 +51,27 @@ const loader = new GLTFLoader()
 const { scene: statue } = await loader.loadAsync('/assets/statue.glb')
 ```
 
-Les `.obj` restent utilisables directement via `OBJLoader` et son `MTLLoader`,
-en gardant le `.mtl` à côté du `.obj` pour que les chemins de textures résolvent.
+The `.obj` files remain usable directly through `OBJLoader` and its `MTLLoader`,
+keeping the `.mtl` next to the `.obj` so texture paths resolve.
 
-## Provenance et licences
+## Provenance and licences
 
-**Aucun de ces assets n'est de moi.** Ils ont été collectés sur le web et via la
-communauté Open RPG en 2020, et restent la propriété de leurs auteurs. Le dépôt
-n'ajoute aucune licence par-dessus : c'est celle de chaque auteur qui s'applique,
-fichier par fichier.
+**None of these assets are mine.** They were collected on the web and through the
+Open RPG community in 2020, and remain the property of their authors. This
+repository adds no licence on top: each author's licence applies, file by file.
 
-- Une quinzaine de dossiers (`fence*`, `model1`, `model2`, `model5`, `Model8`,
-  `Model9`, `Model10`, `heli`) viennent de **W. Sitters** et sont sous double
-  licence **GPL v2+ ou CC-BY 3.0**, au choix, avec obligation de créditer
-  l'auteur. Leurs `Readme.txt`, `GNU_licence.txt` et `CC_attribution_licence.txt`
-  accompagnent les fichiers.
-- `jeep` vient de **Psionic** ([psionicdesign.com](http://www.psionicdesign.com)),
-  libre d'usage, crédit apprécié.
-- `duions_fishtail_palm_blendswap` provient de **BlendSwap**.
-- Le reste ne documente pas sa source. Le contenu de `imagerie/` est en
-  particulier constitué de planches extraites de jeux commerciaux (les noms de
-  fichiers renvoient à des niveaux de *Tomb Raider Legend* et *Anniversary*) :
-  ce sont des références de travail, elles ne sont pas redistribuables.
+- About fifteen folders (`fence*`, `model1`, `model2`, `model5`, `Model8`,
+  `Model9`, `Model10`, `heli`) come from **W. Sitters** and are dual-licensed
+  **GPL v2+ or CC-BY 3.0**, at your choice, with a duty to credit the author.
+  Their `Readme.txt`, `GNU_licence.txt` and `CC_attribution_licence.txt` ship
+  alongside the files.
+- `jeep` comes from **Psionic** ([psionicdesign.com](http://www.psionicdesign.com)),
+  free to use, credit appreciated.
+- `duions_fishtail_palm_blendswap` comes from **BlendSwap**.
+- The rest does not document its source. The contents of `imagerie/` in particular
+  are sheets extracted from commercial games (the file names point at levels of
+  *Tomb Raider Legend* and *Anniversary*): they are working references and are not
+  redistributable.
 
-Avant de réutiliser un élément ailleurs, vérifiez le dossier dont il vient et
-remontez à son auteur.
+Before reusing an item elsewhere, check the folder it comes from and trace it back
+to its author.
